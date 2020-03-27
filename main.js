@@ -14,7 +14,7 @@ btn_genera.addEventListener("click", function(){
   eta = document.getElementById('select').value;
   kmPercorso = document.getElementById('kmPercorso').value;
   nome = document.getElementById('nome').value;
-  
+
   // calcolo il prezzo del biglietto
   if(eta == "Minorenni"){
     prezzo = (kmPercorso*0.21)-((kmPercorso*0.21)*20)/100;
@@ -34,7 +34,7 @@ btn_genera.addEventListener("click", function(){
   // aggiungo la classe per far apparire la sezione
   document.getElementById('contenitore-biglietto').className = "show";
   // stampo a schermo i risultati
-  document.getElementById('prezzo').innerHTML = prezzoApprossimato;
+  document.getElementById('prezzo').innerHTML = prezzoApprossimato + "$";
   document.getElementById('offerta').innerHTML = eta;
   document.getElementById('carrozza').innerHTML = carrozza;
   document.getElementById('codice-cp').innerHTML = codice_cp;
