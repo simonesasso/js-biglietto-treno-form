@@ -14,7 +14,7 @@ btn_genera.addEventListener("click", function(){
   eta = document.getElementById('select').value;
   kmPercorso = document.getElementById('kmPercorso').value;
   nome = document.getElementById('nome').value;
-  console.log(eta, kmPercorso, nome);
+  
   // calcolo il prezzo del biglietto
   if(eta == "Minorenni"){
     prezzo = (kmPercorso*0.21)-((kmPercorso*0.21)*20)/100;

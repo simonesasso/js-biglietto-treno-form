@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+h1{
+  color: darkgrey;
+}
 /* generatore ---------------------------------*/
 .titolo{
  width: 80%;
@@ -13,6 +17,9 @@
 .generatore{
   width: 80%;
   margin: 0 auto;
+  background-color: dodgerblue;
+  padding: 30px 0;
+  border-radius: 12px;
 }
 .riga-1{
   display: flex;
@@ -23,6 +30,19 @@
 .riga-2{
   display: flex;
   justify-content: center;
+  margin-top: 25px;
+}
+#genera{
+ margin-right: 5px;
+ padding: 5px;
+ border-radius: 7px;
+ background-color: white;
+}
+#annulla{
+ margin-left: 5px;
+ padding: 5px;
+ border-radius: 7px;
+ background-color: white;
 }
 /* biglietto generato ------------------------*/
 .hide{
@@ -36,13 +56,16 @@
   width: 80%;
   margin: 0 auto;
 }
+
 .sez-sx{
   width: 25%;
-  background-color: grey;
+  background-color: darkgrey;
+  /* padding: 15px 0; */
 }
 .sez-dx{
-  background-color: red;
+  background-color: dodgerblue;
   width: 75%;
+  padding: 15px 0;
 }
 table{
   width: 100%;
