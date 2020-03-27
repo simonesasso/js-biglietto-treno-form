@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>biglietto-form</title>
+  </head>
+  <body>
+    <!-- generato -------------------------------------->
+    <div class="titolo">
+      <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+    </div>
+    <div class="generatore">
+      <div class="riga-1">
+        <input type="text" id="nome">
+        <input type="number" id="kmPercorso">
+        <select id="select">
+          <option value="Minorenni">Minorenni</option>
+          <option value="Maggiorenni">Maggiorenni</option>
+          <option value="Over-65">Over 65</option>
+        </select>
+      </div>
+      <div class="riga-2">
+        <button type="button" name="genera" id="genera">Genera</button>
+        <button type="button" name="annulla" id="annulla">Annulla</button>
+      </div>
+    </div>
+    <!-- biglietto generato ----------------------------->
+    <div id="contenitore-biglietto" class="hide">
+      <div class="titolo">
+        <h1>IL TUO BIGLIETTO</h1>
+      </div>
+      <div class="biglietto-generato">
+        <div class="sez-sx">
+          <h3>NOME PASSEGGERO</h3>
+          <h4 id="nome-U"></h4>
+        </div>
+        <div class="sez-dx">
+          <table>
+            <tr>
+              <th>Offerta</th>
+              <th>Carrozza</th>
+              <th>Codice cp</th>
+              <th>Prezzo Biglietto</th>
+            </tr>
+            <tr>
+              <td id="offerta">tttttt</td>
+              <td id="carrozza">hhhhhhhhhhh</td>
+              <td id="codice-cp">vvvvvvvvvvvvvvvvvv</td>
+              <td id="prezzo">dfdf</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>

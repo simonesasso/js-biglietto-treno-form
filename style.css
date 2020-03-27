@@ -1,0 +1,53 @@
+/* generali-------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* generatore ---------------------------------*/
+.titolo{
+ width: 80%;
+ margin: 0 auto;
+ text-align: center;
+}
+.generatore{
+  width: 80%;
+  margin: 0 auto;
+}
+.riga-1{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
+.riga-2{
+  display: flex;
+  justify-content: center;
+}
+/* biglietto generato ------------------------*/
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.biglietto-generato{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.sez-sx{
+  width: 25%;
+  background-color: grey;
+}
+.sez-dx{
+  background-color: red;
+  width: 75%;
+}
+table{
+  width: 100%;
+}
+th,td{
+  width: calc(100% / 4);
+  text-align: center;
+}
